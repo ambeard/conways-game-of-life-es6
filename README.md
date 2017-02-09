@@ -7,7 +7,7 @@ This sofftware requires [node.js](https://nodejs.org/en/) and [npm](https://www.
 Also, you'll need [Google Chrome](https://www.google.com/chrome/browser/features.html) if you use the npm script to launch it. You can get it here: `https://www.google.com/chrome/browser/desktop/index.html`
 
 **Installation**
-- npm install
+- `npm install`
 
 **Here are some fun things you can do with the game:**
 

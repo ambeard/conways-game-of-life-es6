@@ -1,0 +1,5 @@
+div#board {
+  background-color:#EEE;
+  /*border: solid black 2px;*/
+  margin: 10px;
+}

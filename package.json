@@ -1,0 +1,30 @@
+{
+  "name": "gol",
+  "version": "1.0.0",
+  "description": "Conway's game of life",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "terminal": "babel-node index.js",
+    "browser": "webpack && open index.html",
+    "test": "karma start karma.config.js",
+    "tester": "babel-node tester.js"
+  },
+  "author": "Ambi Sidhu",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.22.0",
+    "detect-node": "^2.0.3",
+    "jasmine-core": "^2.5.2",
+    "jasmine-node": "^1.14.5",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^2.0.2",
+    "webpack": "^2.2.1"
+  }
+}
